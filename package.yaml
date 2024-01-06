@@ -1,5 +1,5 @@
 name:                clash-shake
-version:             0.4.0
+version:             0.4.1
 category:            Hardware, Shake
 synopsis:            Shake rules for building Clash programs
 description: |
@@ -15,12 +15,12 @@ copyright:           2021-2022 Gergő Érdi
 
 
 dependencies:
-  - base >= 4.14 && < 5
+  - base
   - shake
 
-  - clash-prelude ^>= 1.4.2 || ^>= 1.6.1
-  - clash-lib  ^>= 1.4.2 || ^>= 1.6.1
-  - clash-ghc ^>= 1.4.2 || ^>= 1.6.1
+  - clash-prelude
+  - clash-lib
+  - clash-ghc
 
   - directory
   - bytestring
